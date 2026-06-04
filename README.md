@@ -2,7 +2,7 @@
 
 HydroServer is a software cyberinfrastructure platform created to support collection, management, and standards-based sharing of time series of observations from hydrologic and environmental monitoring sites. It provides multiple software tools for loading data, a performant operational data storage system, web applications for managing data, and client tools for accessing, retrieving, and using data stored within the system.
 
-Under development at the [Utah Water Research Laboratory](https://uwrl.usu.edu/) at [Utah State University](https://www.usu.edu/), HydroServer is designed to be an open source platform that enables research groups, agencies, organizations, and practitioners to more easily collect, manage, use, and share historical time series data and streaming observations from environmental sensors.
+Under development at the [Utah Water Research Laboratory](https://uwrl.usu.edu/) at [Utah State University](https://www.usu.edu/) with support from the World Meteorological Organization (WMO) and others, HydroServer is designed to be an open source platform that enables research groups, agencies, organizations, and practitioners to more easily collect, manage, use, and share historical time series data and streaming observations from environmental sensors.
 
 <br>
 <div align="center">
