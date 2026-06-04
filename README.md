@@ -63,6 +63,13 @@ Because OGC's SensorThings API is a generic Internet of Things (IoT) API, it lac
 
 HydroServer's Data Management API is part of the main HydroServer code repository in GitHub: [https://github.com/hydroserver2/hydroserver](https://github.com/hydroserver2/hydroserver)
 
+<br>
+<div align="center">
+<img src="images/data_management_api.png" width="75%" alt="HydroServer Data Management API">
+</div>
+<br>
+<br>
+
 ### HydroServer Streaming Data Loader
 
  The Streaming Data Loader is a desktop/server software app that can be used for loading streaming data from comma separated values (CSV) files into a HydroServer instance. This can be useful in cases where a monitoring system or organization uses commercial software to manage communications with a sensor network, but regularly downloads data to CSV data files. The Streaming Data Loader can be set up to load data from CSV files any time new data is added to those files. The Streaming Data Loader has the following features:
@@ -147,6 +154,12 @@ HydroServer's TypeScript client is part of the main HydroServer repository in Gi
 
 There is specific documentation on how to use the TypeScript client along with a tutorial on how to build your first app using the TypeScript client available via [HydroServer's documentation](https://www.hydroserver.org).
 
+<br>
+<div align="center">
+<img src="images/typescript_client.png" width="75%" alt="HydroServer TypeScript Client">
+</div>
+<br>
+
 ## HydroServer Documentation
 
 HydroServer's documentation is available at [https://www.hydroserver.org](https://www.hydroserver.org) and includes the following:
@@ -181,3 +194,14 @@ Horsburgh, J. S., Lippold, K., Slaugh, D. L. (2025). Adapting OGC’s SensorThin
 ## Funding and Acknowledgements
 
 Major funding for HydroServer development was provided by the National Oceanic & Atmospheric Administration (NOAA), awarded to the Cooperative Institute for Research to Operations in Hydrology (CIROH) through the NOAA Cooperative Agreement with The University of Alabama (NA22NWS4320003). Additional major funding and support have been provided by the State of Utah Division of Water Rights, the World Meteorological Organization (WMO), and the Utah Water Research Laboratory (UWRL) at Utah State University (USU).
+
+<br>
+<div align="center">
+<img src="images/noaa_logo.png" width="10%" alt="NOAA Logo">&nbsp;
+<img src="images/ciroh_logo.png" width="10%" alt="CIROH Logo">&nbsp;
+<img src="images/water_rights_logo.png" width="10%" alt="Utah Water Rights Logo">&nbsp;
+<img src="images/uwrl_logo_2.png" width="20%" alt="UWRL Logo">&nbsp;
+<img src="images/wmo_logo.png" width="30%" alt="UWRL Logo">&nbsp;
+</div>
+<br>
+<br>
