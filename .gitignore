@@ -1,8 +1,2 @@
-node_modules
-docs/.vitepress/cache/
-docs/.vitepress/dist/
-
 .idea*
 .DS_Store
-.terraform*
-terraform.tfstate*
