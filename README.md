@@ -4,6 +4,14 @@ HydroServer is a software cyberinfrastructure platform created to support collec
 
 Under development at the [Utah Water Research Laboratory](https://uwrl.usu.edu/) at [Utah State University](https://www.usu.edu/), HydroServer is designed to be an open source platform that enables research groups, agencies, organizations, and practitioners to more easily collect, manage, use, and share historical time series data and streaming observations from environmental sensors.
 
+<br>
+<div align="center">
+<img src="images/hydroserver_logo.png" width="25%" alt="HydroServer Logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/uwrl_logo.png" width="50%" alt="UWRL Logo">
+</div>
+<br>
+<br>
+
 This repository provides pointers to the HydroServer software stack maintained in GitHub and documentation for HydroServer components. Code repositories for each HydroServer component are linked below.
 
 * Access the [HydroServer GitHub Organization](https://github.com/hydroserver2)
@@ -26,6 +34,13 @@ HydroServer's Data Management Web Application enables users to create and manage
 
 The HydroServer Data Management App is contained within the main hydroserver code repository in GitHub: [https://github.com/hydroserver2/hydroserver](https://github.com/hydroserver2/hydroserver)
 
+<br>
+<div align="center">
+<img src="images/data_management_app.png" width="50%" alt="HydroServer Data Management App">
+</div>
+<br>
+<br>
+
 ### HydroServer SensorThings API
 
 HydroServer's SensorThings API implementation is a Python Django plugin that can be added to any Django project. It is an implementation of Version 1.1 Part 1: Sensing of the Open Geospatial Consortium's (OGC) SensorThings API. HydroServer's SensorThings implementation enables the following:
@@ -34,6 +49,13 @@ HydroServer's SensorThings API implementation is a Python Django plugin that can
 * Data querying and retreival via a REST API with JSON data encodings
 
 HydroServer's SensorThings API implementation is in a separate GitHub repository because it is independent of HydroServer. It is an upstream dependency for HydroServer and was implemented such that it can be added to any Django project to provide SensorThings support: [https://github.com/hydroserver2/django-ogc-sensorthings](https://github.com/hydroserver2/django-ogc-sensorthings)
+
+<br>
+<div align="center">
+<img src="images/sensor_things.png" width="75%" alt="OGC SensorThings API">
+</div>
+<br>
+<br>
 
 ### HydroServer Data Management API
 
@@ -52,6 +74,13 @@ HydroServer's Data Management API is part of the main HydroServer code repositor
 
 The Streaming Data Loader Desktop app is contained within its own GitHub repository: [https://github.com/hydroserver2/streaming-data-loader](https://github.com/hydroserver2/streaming-data-loader)
 
+<br>
+<div align="center">
+<img src="images/streaming_data_loader.png" width="75%" alt="HydroServer Streaming Data Loader">
+</div>
+<br>
+<br>
+
 ### HydroServer's Job Orchestration System
 
 HydroServer's Data Management App includes an integrated Job Orchestration System that enables setup, execution, and monitoring of:
@@ -61,6 +90,13 @@ HydroServer's Data Management App includes an integrated Job Orchestration Syste
 * **Automated data monitoring tasks** that check raw data against basic quality control rules such as range checks, missing data checks, rate of change checks, persistence checks, etc.
 
 The Job Orchestration System enables users to set up tasks in the main Data Management App, but then tasks are offloaded and run by a Celery task queue to ensure that they run efficiently without impacting the HydroServer's main web server. The Job Orchestration system is part of the Data Management App within the main HydroServer GitHub repository: [https://github.com/hydroserver2/hydroserver](https://github.com/hydroserver2/hydroserver)
+
+<br>
+<div align="center">
+<img src="images/job_orchestration_system.png" width="75%" alt="HydroServer Job Orchestration System">
+</div>
+<br>
+<br>
 
 ### HydroServer Data Quality Control (QC) Web Application
 
@@ -76,6 +112,13 @@ HydroServer's Data QC App enables manual/visual quality control of environmental
 
 Edits to data in the QC App are recorded in an edit history that becomes an executable record of all of the changes that have been made in editing. Results are written back to the HydroServer database as a separate versioned datastream.  The Data QC App is contained within its own GitHub repository: [https://github.com/hydroserver2/hydroserver-qc-app](https://github.com/hydroserver2/hydroserver-qc-app)
 
+<br>
+<div align="center">
+<img src="images/data_qc_app.png" width="75%" alt="HydroServer Data QC App">
+</div>
+<br>
+<br>
+
 ### HydroServer Python Client Package
 
 HydroServer's Python client package, `hydroserverpy`, is available to make scripting for interacting with HydroServer easier. hydroserverpy provides convenience functions for doing most everything you can do in the web user interface of the Data Management App using Python code. This includes:
@@ -89,6 +132,12 @@ HydroServer's Python client package, `hydroserverpy`, is available to make scrip
 `hydroserverpy` was written specifically for Python, but you can also interact with HydroServer via it's SensorThings API and Data Management API via any other programming language that can interact with a modern REST API. The `hydroserverpy` package is PIP installable from the Python Package index and is part of the main HydroServer repository in GitHub: [https://github.com/hydroserver2/hydroserver](https://github.com/hydroserver2/hydroserver)
 
 There is specific documentation on how to use hydroserverpy, including example code, available via [HydroServer's documentation](https://www.hydroserver.org).
+
+<br>
+<div align="center">
+<img src="images/hydroserverpy.png" width="75%" alt="HydroServer Python Client Package hydroserverpy">
+</div>
+<br>
 
 ### HydroServer TypeScript Client Package
 
@@ -110,6 +159,12 @@ HydroServer's documentation is available at [https://www.hydroserver.org](https:
 * Code examples for using HydroServer's APIs and client coding packages (Python client and TypeScript client)
 * Instructions for deploying a HydroServer instance
 * Reference documentation for HydroServer's APIs and data model
+
+<br>
+<div align="center">
+<img src="images/documentation.png" width="75%" alt="HydroServer Documentation">
+</div>
+<br>
 
 ## History of HydroServer Development
 
