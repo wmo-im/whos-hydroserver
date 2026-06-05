@@ -193,7 +193,7 @@ Horsburgh, J. S., Lippold, K., Slaugh, D. L. (2025). Adapting OGC’s SensorThin
 
 ## Funding and Acknowledgements
 
-Major funding for HydroServer development was provided by the National Oceanic & Atmospheric Administration (NOAA), awarded to the Cooperative Institute for Research to Operations in Hydrology (CIROH) through the NOAA Cooperative Agreement with The University of Alabama (NA22NWS4320003). Additional major funding and support have been provided by the State of Utah Division of Water Rights, the World Meteorological Organization (WMO) through Climate Risk and Early Warning System (CREWS), and the Utah Water Research Laboratory (UWRL) at Utah State University (USU).
+Major funding for HydroServer development was provided by the National Oceanic & Atmospheric Administration (NOAA), awarded to the Cooperative Institute for Research to Operations in Hydrology (CIROH) through the NOAA Cooperative Agreement with The University of Alabama (NA22NWS4320003). Additional major funding and support have been provided by the State of Utah Division of Water Rights, the World Meteorological Organization (WMO) through Climate Risk and Early Warning System (CREWS) West and Central Africa Projects, and the Utah Water Research Laboratory (UWRL) at Utah State University (USU).
 
 <br>
 <div align="center">
