@@ -202,7 +202,7 @@ Major funding for HydroServer development was provided by the National Oceanic &
 <img src="images/water_rights_logo.png" width="10%" alt="Utah Water Rights Logo">&nbsp;
 <img src="images/uwrl_logo_2.png" width="20%" alt="UWRL Logo">&nbsp;
 <img src="images/wmo_logo.png" width="30%" alt="UWRL Logo">&nbsp;
- <img src="images/crews_logo.png" width="20%" alt="UWRL Logo">&nbsp;
+ <img src="images/crews_logo.png" width="10%" alt="UWRL Logo">&nbsp;
 </div>
 <br>
 <br>
