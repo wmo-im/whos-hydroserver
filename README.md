@@ -2,7 +2,7 @@
 
 HydroServer is a software cyberinfrastructure platform created to support collection, management, and standards-based sharing of time series of observations from hydrologic and environmental monitoring sites. It provides multiple software tools for loading data, a performant operational data storage system, web applications for managing data, and client tools for accessing, retrieving, and using data stored within the system.
 
-Under development at the [Utah Water Research Laboratory](https://uwrl.usu.edu/) at [Utah State University](https://www.usu.edu/) with support from the World Meteorological Organization (WMO) through [Task Team WIS2 for Hydrology](https://github.com/wmo-im/tt-w4h/tree/main), and other institutions, HydroServer is designed to be an open source platform that enables research groups, agencies, organizations, and practitioners to more easily collect, manage, use, and share historical time series data and streaming observations from environmental sensors.
+Under development at the [Utah Water Research Laboratory](https://uwrl.usu.edu/) at [Utah State University](https://www.usu.edu/) with support from the World Meteorological Organization (WMO) through [Task Team WIS2 for Hydrology](https://github.com/wmo-im/tt-w4h/tree/main), and other institutions. HydroServer is designed to be an open source platform that enables research groups, agencies, organizations, and practitioners to more easily collect, manage, use, and share historical time series data and streaming observations from environmental sensors.
 
 <br>
 <div align="center">
@@ -202,6 +202,7 @@ Major funding for HydroServer development was provided by the National Oceanic &
 <img src="images/water_rights_logo.png" width="10%" alt="Utah Water Rights Logo">&nbsp;
 <img src="images/uwrl_logo_2.png" width="20%" alt="UWRL Logo">&nbsp;
 <img src="images/wmo_logo.png" width="30%" alt="UWRL Logo">&nbsp;
+ <img src="images/crews_logo.png" width="10%" alt="UWRL Logo">&nbsp;
 </div>
 <br>
 <br>
